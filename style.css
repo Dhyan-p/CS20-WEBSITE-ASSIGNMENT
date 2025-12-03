@@ -11,8 +11,8 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
-    color: #34a0a4;
+    font-size: 34px;
+    color: #bb9457;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ nav ol {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: #dda15e;
+    background-color: #000000;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
@@ -29,7 +29,7 @@ nav ol {
 nav ol a {
     text-decoration: none;
     font-size: 2em;
-    color: #588157;
+    color: #ffffff;
     padding: 15px;
 }
 
@@ -53,11 +53,74 @@ body {
 .container {
     margin: auto;
     width: 80%;
+    height: 500px;
 }
+
+#content {
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+#content p {
+    margin-bottom: 0;
+}
+
+.skill-table {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.captainamerica-intelligence {width: 30%; background-color: blue;}
+.captainamerica-strength { width: 30%; background-color: blue;}
+.captainamerica-speed { width: 20%; background-color: blue;}
+.captainamerica-durability { width: 30%; background-color: blue;}
+.captainamerica-energyprojection { width: 10%; background-color: blue;}
+.captainamerica-fightingskills { width: 60%; background-color: blue;}
+
+.hulk-intelligence {width: 10%; background-color: green;}
+.hulk-strength { width: 70%; background-color: green;}
+.hulk-speed { width: 20%; background-color: green;}
+.hulk-durability { width: 70%; background-color: green;}
+.hulk-energyprojection { width: 10%; background-color: green;}
+.hulk-fightingskills { width: 40%; background-color: green;}
+
+.ironman-intelligence {width: 60%; background-color: red;}
+.ironman-strength { width: 60%; background-color: red;}
+.ironman-speed { width: 50%; background-color: red;}
+.ironman-durability { width: 60%; background-color: red;}
+.ironman-energyprojection { width: 60%; background-color: red;}
+.ironman-fightingskills { width: 40%; background-color: red;}
+
+.thor-intelligence {width: 30%; background-color: purple;}
+.thor-strength { width: 70%; background-color: purple;}
+.thor-speed { width: 70%; background-color: purple;}
+.thor-durability { width: 60%; background-color: purple;}
+.thor-energyprojection { width: 60%; background-color: purple;}
+.thor-fightingskills { width: 40%; background-color: purple;}
+
+.spiderman-intelligence {width: 40%; background-color: orange;}
+.spiderman-strength { width: 40%; background-color: orange;}
+.spiderman-speed { width: 30%; background-color: orange;}
+.spiderman-durability { width: 30%; background-color: orange;}
+.spiderman-energyprojection { width: 10%; background-color: orange;}
+.spiderman-fightingskills { width: 40%; background-color: orange;}
 
 img {
     float: left;
     margin: 10px;
     border-radius: 10px;
     border: 2px solid white;
+}
+
+.Img {
+    width: 300px;
+    height: 500px;
 }
